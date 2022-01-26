@@ -26,7 +26,7 @@ The game has been coded in Python and can be run on the terminal. Given below ar
 3. Find the list referenced by variable *self.possible_words*.
 4. Update list with your choice of words and save the file.
 
-
+![Hangman](https://user-images.githubusercontent.com/42382651/151172404-ff318f62-daf5-445d-a4e3-4995965ca6d7.jpg)
 
 
 ## Reference
