@@ -70,11 +70,11 @@ class Hangman():
         # Append word_to_find list with characters of chosen word.
         # Append and print correctly_guessed_letters list with '_' equivalent to total number of characters of chosen word.
         for i in chosen_word:
-            if self.word_to_find == None:
+            if self.word_to_find is None:
                 self.word_to_find = []
             self.word_to_find.append(i)
 
-            if self.correctly_guessed_letters == None:
+            if self.correctly_guessed_letters is None:
                 self.correctly_guessed_letters = []
             self.correctly_guessed_letters.append("_")
         print(self.correctly_guessed_letters)
@@ -122,7 +122,7 @@ class Hangman():
         # Check if wrongly_guessed_letters list is None. If yes, turn it into an empty list.
         # If letter does not match one of the alphabets in the chosen word, update list of wrongly_guessed_letters, lives and error count.
         if letter not in word:
-            if self.wrongly_guessed_letters == None:
+            if self.wrongly_guessed_letters is None:
                 self.wrongly_guessed_letters = []
             self.wrongly_guessed_letters.append(letter)
             self.error_count += 1
